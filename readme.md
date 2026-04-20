@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ed5b23ba-3e7e-46fd-a18c-8fcc520bee52" alt="kpmg-logo" width="180" />
 </p>
 
-<h1 align="center">GenAI Developer Assessment — Solution</h1>
+<h1 align="center">🤖 GenAI Developer Assessment — Solution</h1>
 
 <p align="center">
   <strong>Azure Document Intelligence · GPT-4o · ADA-002 · FastAPI · Streamlit · Gradio</strong>
@@ -16,7 +15,7 @@ This solution is built in two self-contained phases, each solving a real-world G
 
 | Phase | Problem | Stack |
 |-------|---------|-------|
-| **1** | Extract structured data from hand-filled Hebrew insurance forms | Azure DI + GPT-4o + Streamlit |
+| **1** | Extract structured data from filled insurance forms | Azure DI + GPT-4o + Streamlit |
 | **2** | Conversational chatbot that answers HMO service questions for a specific user profile | FastAPI + GPT-4o + ADA-002 + Gradio |
 
 ---
@@ -61,7 +60,7 @@ User uploads PDF/image
 
 ### Screenshot
 
-![Phase 1 UI](../files/phase1_screenshot.png)
+![Phase 1 UI](/files/phase1_screenshot.png)
 
 The UI shows:
 - **Left panel** — uploaded document preview
@@ -79,7 +78,7 @@ Standard OCR returns text in reading order, losing the 2-D layout that tells you
 
 #### 2. Checkbox Extraction
 
-Form 283 has four checkbox groups (gender, accident location, health fund, nature of accident). Raw OCR context around a checkbox is ambiguous: multiple mark tokens and labels appear within any fixed window, making it impossible to know which label belongs to which mark.
+Form 283 has four checkbox groups (gender, accident location, health fund, nature of accident).
 
 **Solution (two-layer approach):**
 
@@ -136,7 +135,7 @@ All conversation history and user profile live on the **client side** (Gradio `g
 
 ### Screenshot
 
-![Phase 2 UI](../files/phase2_screenshot.png)
+![Phase 2 UI](/files/phase2_screenshot.png)
 
 The UI shows:
 - **Left panel** — chat window with the bot guiding the user through profile collection, then switching to Q&A
@@ -354,12 +353,3 @@ Currently, the extracted JSON is read-only — users can view and download it bu
 - Latency monitoring for OCR, embedding, and LLM calls separately
 
 ---
-
-## Azure Resources Used
-
-| Resource | Purpose |
-|----------|---------|
-| Azure Document Intelligence — `prebuilt-layout` | OCR with spatial metadata, selection marks, tables |
-| Azure OpenAI — GPT-4o | Form field extraction, chatbot Q&A, profile collection |
-| Azure OpenAI — GPT-4o-mini | Fallback / lower-cost calls |
-| Azure OpenAI — `text-embedding-ada-002` | Knowledge base chunk embeddings for semantic search |
