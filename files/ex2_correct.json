@@ -1,0 +1,49 @@
+{
+  "lastName": "הלוי",
+  "firstName": "שלמה",
+  "idNumber": "022456120",
+  "gender": "זכר",
+  "dateOfBirth": {
+    "day": "14",
+    "month": "10",
+    "year": "1990"
+  },
+  "address": {
+    "street": "חיים ויצמן",
+    "houseNumber": "6",
+    "entrance": "",
+    "apartment": "34",
+    "city": "יוקנעם",
+    "postalCode": "4454124",
+    "poBox": ""
+  },
+  "landlinePhone": "097656054",
+  "mobilePhone": "0554412742",
+  "jobType": "מאפיית האחים",
+  "dateOfInjury": {
+    "day": "12",
+    "month": "08",
+    "year": "2005"
+  },
+  "timeOfInjury": "12:00",
+  "accidentLocation": "במפעל",
+  "accidentAddress": "האופים 17 בני ברק",
+  "accidentDescription": "במהלך העבודה נשרף ממגש לוהט.",
+  "injuredBodyPart": "הפנים במיוחד הלחי הימנית",
+  "signature": "",
+  "formFillingDate": {
+    "day": "14",
+    "month": "09",
+    "year": "2006"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "03",
+    "month": "07",
+    "year": "2001"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "כללית",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

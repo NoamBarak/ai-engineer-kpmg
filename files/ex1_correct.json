@@ -1,0 +1,49 @@
+{
+  "lastName": "טננהוים",
+  "firstName": "יהודה",
+  "idNumber": "8775245631",
+  "gender": "זכר",
+  "dateOfBirth": {
+    "day": "02",
+    "month": "02",
+    "year": "1995"
+  },
+  "address": {
+    "street": "הרמבם",
+    "houseNumber": "16",
+    "entrance": "1",
+    "apartment": "12",
+    "city": "אבן יהודה",
+    "postalCode": "312422",
+    "poBox": ""
+  },
+  "landlinePhone": "",
+  "mobilePhone": "0502474947",
+  "jobType": "מלצרות",
+  "dateOfInjury": {
+    "day": "16",
+    "month": "04",
+    "year": "2022"
+  },
+  "timeOfInjury": "19:00",
+  "accidentLocation": "במפעל",
+  "accidentAddress": "הורדים 8, תל אביב",
+  "accidentDescription": "החלקתי בגלל שהרצפה הייתה רטובה ולא היה שום שלט שמזהיר.",
+  "injuredBodyPart": "יד שמאל",
+  "signature": "",
+  "formFillingDate": {
+    "day": "25",
+    "month": "01",
+    "year": "2023"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "02",
+    "month": "02",
+    "year": "1999"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "מאוחדת",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

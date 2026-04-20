@@ -1,0 +1,49 @@
+{
+  "lastName": "יוחננוף",
+  "firstName": "רועי",
+  "idNumber": "0334521567",
+  "gender": "זכר",
+  "dateOfBirth": {
+    "day": "03",
+    "month": "03",
+    "year": "1974"
+  },
+  "address": {
+    "street": "המאיר",
+    "houseNumber": "15",
+    "entrance": "1",
+    "apartment": "16",
+    "city": "אלוני הבשן",
+    "postalCode": "445412",
+    "poBox": ""
+  },
+  "landlinePhone": "0975423541",
+  "mobilePhone": "0502451645",
+  "jobType": "ירקנייה",
+  "dateOfInjury": {
+    "day": "14",
+    "month": "04",
+    "year": "1999"
+  },
+  "timeOfInjury": "15:30",
+  "accidentLocation": "במפעל",
+  "accidentAddress": "לוונברג 173 כפר סבא",
+  "accidentDescription": "במהלך העבודה הרמתי משקל כבד וכתוצאה מכך הייתי צריך ניתוח קילה",
+  "injuredBodyPart": "קילה",
+  "signature": "רועי",
+  "formFillingDate": {
+    "day": "20",
+    "month": "05",
+    "year": "1999"
+  },
+  "formReceiptDateAtClinic": {
+    "day": "30",
+    "month": "06",
+    "year": "1999"
+  },
+  "medicalInstitutionFields": {
+    "healthFundMember": "",
+    "natureOfAccident": "",
+    "medicalDiagnoses": ""
+  }
+}

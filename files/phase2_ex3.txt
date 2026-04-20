@@ -1,0 +1,70 @@
+assistant: שלום! 👋 אני הבוט הרפואי של קופות החולים.
+
+אני כאן לעזור לך למצוא מידע על שירותים רפואיים ב**מכבי**, **מאוחדת** ו**כללית**.
+
+נתחיל בכמה פרטים קצרים כדי שאוכל לענות על שאלות ספציפיות עבורך.
+
+**מה שמך?** 😊
+
+---
+*Hello! I'm the medical services chatbot. I can help you find information about HMO benefits. Let's start with a few details — what's your name?*
+
+user: karlos
+
+assistant: Hi last name
+
+user: chacana
+
+assistant: ID number
+
+user: 147258369
+
+assistant: your gender male or female
+
+user: כן בטח אני גבר
+
+assistant: גיל
+
+user: im 40 years old
+
+assistant: HMO
+
+user: אוי ואבוי מכבי! אני רק הפועל
+
+assistant: קופת חולים
+
+user: אוקי אז כללית
+
+assistant: מספר כרטיס קופת חולים
+
+user: my number- 258258258
+
+assistant:  insurance tier
+
+user: gold
+
+assistant: summary
+
+- **First Name:** Karlos  
+- **Last Name:** Chacana  
+- **Israeli ID Number:** 147258369  
+- **Gender:** Male  
+- **Age:** 40  
+- **HMO:** Clalit  
+- **HMO Card Number:** 258258258  
+- **Insurance Tier:** Gold  
+
+
+user: כן זה פשוט מעולה ונהדר
+
+assistant: נשמר
+
+**קופת חולים:** כללית | **מסלול:** זהב
+
+user: clalit phone number
+
+assistant:  *2700 03-9766111  
+
+user: תגיד יש איזה משהו של רפלקסלגויה שמכיע לי
+
+assistant: 70% הנחה עד 12 טיפולים בשנה
